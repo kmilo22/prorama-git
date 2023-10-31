@@ -1,0 +1,50 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> <!-- Enlaza a tu archivo CSS -->
+    <title>Clientes - AreGym</title>
+</head>
+<body>
+    <header>
+        <h1>Clientes</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="clientes.html">Clientes</a></li>
+            <li><a href="suscripciones.html">Suscripciones</a></li>
+            <li><a href="pagos.html">Pagos</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="lista-clientes">
+            <h2>Lista de Clientes</h2>
+            <ul>
+                <li>Cliente 1 <a href="editar_cliente.html">Editar</a> <a href="eliminar_cliente.html">Eliminar</a></li>
+                <li>Cliente 2 <a href="editar_cliente.html">Editar</a> <a href="eliminar_cliente.html">Eliminar</a></li>
+                <li>Cliente 3 <a href="editar_cliente.html">Editar</a> <a href="eliminar_cliente.html">Eliminar</a></li>
+                <!-- Repite esta estructura para cada cliente -->
+            </ul>
+        </section>
+
+        <section id="agregar-cliente">
+            <h2>Agregar Cliente</h2>
+            <form action="procesar_cliente.html" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <button type="submit" class="add-button">Agregar Cliente</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 AreGym - Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>

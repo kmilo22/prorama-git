@@ -1,0 +1,105 @@
+/* Estilo para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para el encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilo para la barra de navegación */
+nav ul {
+    background-color: #333;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Estilo para el área principal */
+main {
+    padding: 20px;
+}
+
+/* Estilo para títulos de sección */
+h2 {
+    color: #333;
+}
+/* estilo inicio de sesion */
+main {
+    text-align: center;
+    padding: 20px;
+}
+#inicio-sesion {
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    display: inline-block;
+    text-align: left;
+}
+
+#inicio-sesion form {
+    margin-top: 20px;
+}
+
+/* Estilos para el botón "Iniciar Sesión" deshabilitado */
+.login-button[disabled] {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* Estilo para el botón "Olvidé mi contraseña" */
+.forgot-password {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #0074d9;
+}
+/* Estilo para tablas de datos (por ejemplo, en la página de clientes) */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+/* Estilo para botones (por ejemplo, en la página de clientes) */
+button {
+    background-color: #0074d9;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #0056a7;
+}
